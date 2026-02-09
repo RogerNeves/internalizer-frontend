@@ -4,7 +4,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="flex w-full h-screen flex-col md:flex-row md:overflow-hidden ">
       <div className="w-1/10 flex-col md:w-64">
         <div className="h-9/10">
-          <div className="flex w-full h-15 items-center justify-center"> <p className="text-center align-baseline">image</p></div>
+          <Link href={'/app'} className="flex w-full h-15 items-center justify-center"> <p className="text-center align-baseline">image</p></Link>
           <Link href={'/app/profile'} className="flex w-full h-15 items-center justify-center" > profile</Link>
           <Link href={'/app/decks'} className="flex w-full h-15 items-center justify-center"> decks</Link>
         </div>
